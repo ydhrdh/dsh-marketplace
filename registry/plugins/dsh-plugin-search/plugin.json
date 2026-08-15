@@ -1,0 +1,40 @@
+{
+  "id": "dsh-plugin-search",
+  "name": "Plugin Search",
+  "version": "1.1.0",
+  "description": "Plugin discoverability for DeepSeek Harness: search dsh plugins across npm and the awesome-dsh-plugin list, look up package metadata, and browse the curated list — all from inside dsh agents. Answers discussion #1715.",
+  "author": {
+    "name": "zoahdev",
+    "url": "https://github.com/zoahdev"
+  },
+  "license": "MIT",
+  "category": "tools",
+  "tags": [
+    "search",
+    "discoverability",
+    "npm",
+    "registry",
+    "awesome-list",
+    "marketplace"
+  ],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:zoahdev/dsh-plugin-search",
+    "command": "dsh plugin --profile {profile} add github:zoahdev/dsh-plugin-search"
+  },
+  "verified": false,
+  "stars": 0,
+  "maintainers": [
+    "zoahdev"
+  ],
+  "repository": "https://github.com/zoahdev/dsh-plugin-search",
+  "docs": "https://github.com/zoahdev/dsh-plugin-search"
+}
