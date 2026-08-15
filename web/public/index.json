@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-08-15T07:00:35.760Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -41,6 +41,45 @@
       ],
       "repository": "https://github.com/Seann0824/deepseek-harness-for-codex",
       "docs": "https://github.com/Seann0824/deepseek-harness-for-codex/blob/main/README.md"
+    },
+    {
+      "id": "dsh-deepseek-quota-bar",
+      "name": "DeepSeek Quota Bar",
+      "version": "0.5.0",
+      "description": "Draggable transparent balance card for the DSH web GUI: a blood-bar of remaining balance vs the month-opening snapshot, today/month spend (official platform data when the token is configured), and current session cost.",
+      "descriptionZh": "DSH Web 右下角可拖动透明余额卡片：余额/月初额度血条，今日与本月使用量（配置平台 token 后为官方精确数据），以及当前对话费用。",
+      "author": {
+        "name": "jiangli07",
+        "url": "https://github.com/jiangli07"
+      },
+      "license": "MIT",
+      "category": "web",
+      "tags": [
+        "balance",
+        "quota",
+        "usage",
+        "cost",
+        "ui",
+        "web"
+      ],
+      "compatibility": {
+        "dsh": ">=0.1.0",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "npm",
+        "spec": "dsh-deepseek-quota-bar",
+        "command": "dsh plugin --profile {profile} add dsh-deepseek-quota-bar"
+      },
+      "verified": false,
+      "maintainers": [
+        "jiangli07"
+      ],
+      "repository": "https://github.com/jiangli07/dsh-deepseek-quota-bar"
     },
     {
       "id": "dsh-mcp-client",
