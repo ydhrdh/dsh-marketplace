@@ -1,0 +1,27 @@
+{
+  "id": "dsh-plugin-doctor",
+  "name": "Plugin Doctor",
+  "version": "1.3.0",
+  "description": "Health checks for DeepSeek Harness: plugin manifest/patch/entry/build/pack/install verification, a model-callable plugin_check tool, profile host-shadowing detection, and environment diagnostics (node/pnpm/dsh PATH, web port). Implements the dsh plugin check idea from RFC #1629 and the dsh doctor idea from discussion #1719.",
+  "author": {
+    "name": "zoahdev",
+    "url": "https://github.com/zoahdev"
+  },
+  "license": "MIT",
+  "category": "tools",
+  "tags": ["doctor", "health-check", "diagnostics", "cli", "plugin-check", "pre-publish", "quality"],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:zoahdev/dsh-plugin-doctor",
+    "command": "dsh plugin --profile {profile} add github:zoahdev/dsh-plugin-doctor"
+  },
+  "verified": false,
+  "stars": 0,
+  "maintainers": ["zoahdev"],
+  "repository": "https://github.com/zoahdev/dsh-plugin-doctor",
+  "docs": "https://github.com/zoahdev/dsh-plugin-doctor"
+}

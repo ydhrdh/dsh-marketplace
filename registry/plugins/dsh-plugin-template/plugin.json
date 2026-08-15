@@ -1,0 +1,27 @@
+{
+  "id": "dsh-plugin-template",
+  "name": "Plugin Template",
+  "version": "0.1.0",
+  "description": "Minimal, verified template for DeepSeek Harness plugins: bundle manifest, one tool, runtime peer guard, tests, and CI that really invokes the tool. Fork it and rename.",
+  "author": {
+    "name": "zoahdev",
+    "url": "https://github.com/zoahdev"
+  },
+  "license": "MIT",
+  "category": "experimental",
+  "tags": ["template", "scaffold", "starter", "plugin-development", "ci"],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:zoahdev/dsh-plugin-template",
+    "command": "dsh plugin --profile {profile} add github:zoahdev/dsh-plugin-template"
+  },
+  "verified": false,
+  "stars": 0,
+  "maintainers": ["zoahdev"],
+  "repository": "https://github.com/zoahdev/dsh-plugin-template",
+  "docs": "https://github.com/zoahdev/dsh-plugin-template"
+}
