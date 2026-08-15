@@ -1,0 +1,31 @@
+{
+  "id": "dsh-deepseek-balance",
+  "name": "dsh-deepseek-balance",
+  "version": "0.1.1",
+  "description": "Session-header DeepSeek API billing badge: live balance, per-conversation spend, peak/off-peak pricing. Click to open a full usage panel (stats, daily distribution, rankings).",
+  "descriptionZh": "会话头部 DeepSeek API 计费徽章：实时余额、每会话消耗、峰谷/平价价格。点开是完整用量面板（统计、每日分布、排行）。",
+  "author": {
+    "name": "lancecheney",
+    "url": "https://github.com/lancecheney"
+  },
+  "license": "MIT",
+  "category": "web",
+  "tags": ["web", "balance", "billing", "cost", "pricing", "deepseek", "token"],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "@lancecheney/dsh-deepseek-balance",
+    "command": "dsh plugin --profile {profile} add @lancecheney/dsh-deepseek-balance"
+  },
+  "verified": false,
+  "maintainers": ["lancecheney"],
+  "repository": "https://github.com/lancecheney/dsh-plugins",
+  "docs": "https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance",
+  "screenshots": [
+    "https://github.com/lancecheney/dsh-plugins/raw/main/docs/screenshot.png",
+    "https://github.com/lancecheney/dsh-plugins/raw/main/docs/panel.png"
+  ]
+}
