@@ -1,0 +1,28 @@
+{
+  "id": "pi2dsh",
+  "name": "pi2dsh",
+  "version": "0.11.0",
+  "description": "Compatibility layer that runs published Pi ecosystem extensions on DeepSeek Harness without per-package forks or adapters.",
+  "descriptionZh": "DeepSeek Harness 的 Pi 生态兼容层：无需逐包 fork、改源码或编写专用适配，即可安装并运行已发布的 Pi 扩展。",
+  "author": {
+    "name": "weijiafu14",
+    "url": "https://github.com/weijiafu14"
+  },
+  "license": "MIT",
+  "category": "infrastructure",
+  "tags": ["compatibility", "ecosystem", "pi", "plugins", "migration"],
+  "compatibility": {
+    "dsh": ">=0.1.0-rc.6",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "pi2dsh",
+    "command": "dsh plugin --profile {profile} add pi2dsh"
+  },
+  "verified": false,
+  "stars": 12,
+  "maintainers": ["weijiafu14"],
+  "repository": "https://github.com/weijiafu14/pi2dsh",
+  "docs": "https://github.com/weijiafu14/pi2dsh#readme"
+}
