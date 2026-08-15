@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-08-15T21:19:16.957Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -80,6 +80,47 @@
       ],
       "repository": "https://github.com/deepseek-harness/dsh-mcp-client",
       "docs": "https://github.com/deepseek-harness/deepseek-harness"
+    },
+    {
+      "id": "dsh-mcp-lens",
+      "name": "MCP Lens",
+      "version": "0.1.0-rc.9",
+      "description": "Progressive-disclosure MCP gateway for DeepSeek Harness: search a large remote tool catalog, reveal the exact selected schema, then call it through two model-facing tools.",
+      "descriptionZh": "DeepSeek Harness 的渐进式 MCP 网关：先检索大型远程工具目录，再展示所选工具的精确 schema，并通过两个模型可见工具完成调用。",
+      "author": {
+        "name": "labmimors",
+        "url": "https://github.com/labmimors"
+      },
+      "license": "MIT",
+      "category": "integration",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "tool-discovery",
+        "progressive-disclosure",
+        "tool-routing",
+        "context-engineering"
+      ],
+      "compatibility": {
+        "dsh": ">=0.1.0-rc.6",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "npm",
+        "spec": "dsh-mcp-lens",
+        "command": "dsh plugin --profile {profile} add dsh-mcp-lens@next"
+      },
+      "verified": false,
+      "maintainers": [
+        "labmimors"
+      ],
+      "repository": "https://github.com/labmimors/dsh-mcp-lens",
+      "homepage": "https://deepseek-harness-mcp-lens.charmingkla.chatgpt.site",
+      "docs": "https://github.com/labmimors/dsh-mcp-lens#install"
     },
     {
       "id": "dsh-plugin-cc",
