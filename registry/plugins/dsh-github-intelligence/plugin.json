@@ -1,18 +1,39 @@
 {
   "id": "dsh-github-intelligence",
   "name": "GitHub Intelligence",
-  "version": "2.4.1",
-  "description": "The most comprehensive developer-intelligence integration for DeepSeek Harness: 185+ read-only tools across GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, and dev.to — no API key required, rate-limit-friendly caching.",
+  "version": "2.5.0",
+  "description": "The most comprehensive developer-intelligence integration for DeepSeek Harness: 190+ read-only tools across GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, and NuGet — no API key required, rate-limit-friendly caching.",
   "author": {
     "name": "zoahdev",
     "url": "https://github.com/zoahdev"
   },
   "license": "MIT",
   "category": "integration",
-  "tags": ["github", "gitlab", "gitee", "npm", "pypi", "docker", "huggingface", "hackernews", "stackoverflow", "reddit", "devto", "search", "releases", "issues", "pull-requests", "developer-tools"],
+  "tags": [
+    "github",
+    "gitlab",
+    "gitee",
+    "npm",
+    "pypi",
+    "docker",
+    "huggingface",
+    "hackernews",
+    "stackoverflow",
+    "reddit",
+    "devto",
+    "search",
+    "releases",
+    "issues",
+    "pull-requests",
+    "developer-tools"
+  ],
   "compatibility": {
     "dsh": ">=0.1.0",
-    "platforms": ["linux", "macos", "windows"]
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
   },
   "install": {
     "target": "git",
@@ -21,7 +42,9 @@
   },
   "verified": false,
   "stars": 0,
-  "maintainers": ["zoahdev"],
+  "maintainers": [
+    "zoahdev"
+  ],
   "repository": "https://github.com/zoahdev/dsh-github-intelligence",
   "docs": "https://github.com/zoahdev/dsh-github-intelligence"
 }
