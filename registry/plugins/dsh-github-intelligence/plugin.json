@@ -1,8 +1,8 @@
 {
   "id": "dsh-github-intelligence",
   "name": "GitHub Intelligence",
-  "version": "2.5.0",
-  "description": "The most comprehensive developer-intelligence integration for DeepSeek Harness: 190+ read-only tools across GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, and NuGet — no API key required, rate-limit-friendly caching.",
+  "version": "2.6.0",
+  "description": "The most comprehensive developer-intelligence integration for DeepSeek Harness: 195+ read-only tools across GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, and the Go module proxy — no API key required, rate-limit-friendly caching.",
   "author": {
     "name": "zoahdev",
     "url": "https://github.com/zoahdev"
