@@ -1,0 +1,39 @@
+{
+  "id": "dsh-github-release-radar",
+  "name": "GitHub Release Radar",
+  "version": "0.2.0",
+  "description": "Track releases, stars, and Git tags of any public GitHub repository from inside dsh agents — no API key needed.",
+  "author": {
+    "name": "zoahdev",
+    "url": "https://github.com/zoahdev"
+  },
+  "license": "MIT",
+  "category": "integration",
+  "tags": [
+    "github",
+    "releases",
+    "stars",
+    "tracking",
+    "notifications"
+  ],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:zoahdev/dsh-github-release-radar",
+    "command": "dsh plugin --profile {profile} add github:zoahdev/dsh-github-release-radar"
+  },
+  "verified": false,
+  "stars": 0,
+  "maintainers": [
+    "zoahdev"
+  ],
+  "repository": "https://github.com/zoahdev/dsh-github-release-radar",
+  "docs": "https://github.com/zoahdev/dsh-github-release-radar"
+}
