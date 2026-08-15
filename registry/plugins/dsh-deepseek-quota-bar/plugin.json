@@ -16,9 +16,9 @@
     "platforms": ["linux", "macos", "windows"]
   },
   "install": {
-    "target": "npm",
-    "spec": "dsh-deepseek-quota-bar",
-    "command": "dsh plugin --profile {profile} add dsh-deepseek-quota-bar"
+    "target": "git",
+    "spec": "github:jiangli07/dsh-deepseek-quota-bar",
+    "command": "dsh plugin --profile {profile} add github:jiangli07/dsh-deepseek-quota-bar"
   },
   "verified": false,
   "maintainers": ["jiangli07"],

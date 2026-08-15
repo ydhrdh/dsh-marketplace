@@ -1,6 +1,6 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T07:00:35.760Z",
+  "generatedAt": "2026-08-15T07:30:24.651Z",
   "count": 8,
   "plugins": [
     {
@@ -71,9 +71,9 @@
         ]
       },
       "install": {
-        "target": "npm",
-        "spec": "dsh-deepseek-quota-bar",
-        "command": "dsh plugin --profile {profile} add dsh-deepseek-quota-bar"
+        "target": "git",
+        "spec": "github:jiangli07/dsh-deepseek-quota-bar",
+        "command": "dsh plugin --profile {profile} add github:jiangli07/dsh-deepseek-quota-bar"
       },
       "verified": false,
       "maintainers": [
