@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-08-17T16:26:02.668Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -41,6 +41,53 @@
       ],
       "repository": "https://github.com/Seann0824/deepseek-harness-for-codex",
       "docs": "https://github.com/Seann0824/deepseek-harness-for-codex/blob/main/README.md"
+    },
+    {
+      "id": "dsh-agent-team-gui",
+      "name": "Agent Team GUI",
+      "version": "0.5.0",
+      "description": "Persistent, reusable multi-model teams for DeepSeek Harness with lead-Agent DAG planning, bounded execution, optional quality review, durable run history, and provider-reported Token usage.",
+      "descriptionZh": "为 DeepSeek Harness 提供持久、可复用的多模型 Agent 小队：由主 Agent 规划有限 DAG，执行角色明确的成员任务，并提供可选质量审核、持久运行历史和 Provider 上报的 Token 用量。",
+      "author": {
+        "name": "toolclub",
+        "url": "https://github.com/toolclub"
+      },
+      "license": "MIT",
+      "category": "workflow",
+      "tags": [
+        "multi-agent",
+        "multi-model",
+        "orchestration",
+        "workflow",
+        "dag",
+        "web",
+        "token-usage"
+      ],
+      "compatibility": {
+        "dsh": ">=0.1.0-rc.5 <0.2.0",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "git",
+        "spec": "github:toolclub/dsh-agent-team-gui#v0.5.0",
+        "command": "dsh plugin --profile {profile} add -w github:toolclub/dsh-agent-team-gui#v0.5.0"
+      },
+      "verified": false,
+      "stars": 36,
+      "maintainers": [
+        "lzh19162600626-design"
+      ],
+      "repository": "https://github.com/toolclub/dsh-agent-team-gui",
+      "screenshots": [
+        "https://raw.githubusercontent.com/toolclub/dsh-agent-team-gui/v0.5.0/assets/v0.5-teams-settings.png",
+        "https://raw.githubusercontent.com/toolclub/dsh-agent-team-gui/v0.5.0/assets/v0.5-run-center.png",
+        "https://raw.githubusercontent.com/toolclub/dsh-agent-team-gui/v0.5.0/assets/v0.5-insights.png"
+      ],
+      "docs": "https://github.com/toolclub/dsh-agent-team-gui/blob/v0.5.0/README.md"
     },
     {
       "id": "dsh-mcp-client",
