@@ -1,0 +1,30 @@
+{
+  "id": "deepseek-harness-novel-studio",
+  "name": "Novel Studio · 小说创作工作台",
+  "version": "3.4.2-beta.2",
+  "description": "A local-first AI fiction workspace that keeps chapters, outline, character relationships, worldbuilding, timeline, writing rules, and continuity linked to the conversation.",
+  "descriptionZh": "AI 小说创作工作台：在对话中管理大纲、章节、人物关系、世界观、时间线、禁写规则与一致性，让长篇小说越写越不乱。持续更新，欢迎作者反馈真实写作需求。",
+  "author": {
+    "name": "qinpeizhan",
+    "url": "https://github.com/qinpeizhan77"
+  },
+  "license": "MIT",
+  "category": "workflow",
+  "tags": ["小说", "小说创作", "AI小说", "novel", "fiction-writing", "long-form", "characters", "timeline", "worldbuilding", "continuity", "writing"],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "deepseek-harness-novel-studio",
+    "command": "dsh plugin --profile {profile} add deepseek-harness-novel-studio@beta"
+  },
+  "verified": false,
+  "repository": "https://github.com/qinpeizhan77/deepseek-harness-novel-studio",
+  "screenshots": [
+    "https://raw.githubusercontent.com/qinpeizhan77/deepseek-harness-novel-studio/main/assets/screenshot-native.png",
+    "https://raw.githubusercontent.com/qinpeizhan77/deepseek-harness-novel-studio/main/assets/screenshot-main.png"
+  ],
+  "docs": "https://github.com/qinpeizhan77/deepseek-harness-novel-studio#readme"
+}
