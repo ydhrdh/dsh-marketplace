@@ -1,0 +1,27 @@
+{
+  "id": "dsh-workspace",
+  "name": "DSH Workspace",
+  "version": "0.2.0",
+  "description": "A lightweight IDE-style workspace for DSH with a project explorer, terminal, resizable panels, per-file diffs, and full Git source-control workflows.",
+  "descriptionZh": "面向 DSH 的轻量 IDE 工作区：集成项目文件浏览、终端、可拖拽面板、逐文件 Diff、彩色 Git 分支图，以及暂存、提交、分支、拉取和推送等操作。",
+  "author": {
+    "name": "AstralFoundry",
+    "url": "https://github.com/AstralFoundry"
+  },
+  "license": "MIT",
+  "category": "web",
+  "tags": ["workspace", "ide", "git", "source-control", "diff", "terminal", "web"],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:AstralFoundry/dsh-workspace#v0.2.0",
+    "command": "dsh plugin --profile {profile} add github:AstralFoundry/dsh-workspace#v0.2.0"
+  },
+  "verified": false,
+  "maintainers": ["AstralFoundry"],
+  "repository": "https://github.com/AstralFoundry/dsh-workspace",
+  "docs": "https://github.com/AstralFoundry/dsh-workspace/blob/main/README.zh.md"
+}
