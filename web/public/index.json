@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-09-29T00:12:16.701Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -120,6 +120,41 @@
       ],
       "repository": "https://github.com/cpj-dev/dsh-plugin-cc",
       "docs": "https://github.com/cpj-dev/dsh-plugin-cc/blob/main/README.md"
+    },
+    {
+      "id": "dsh-priceflow",
+      "name": "PriceFlow",
+      "version": "0.2.0",
+      "description": "Shows DeepSeek PEAK/OFF-PEAK pricing and countdowns in the composer, with official USD/CNY pricing, optional account balance, and durable off-peak text-message scheduling.",
+      "descriptionZh": "在输入框下方显示 DeepSeek 峰价/低谷时段、倒计时和官方美元/人民币价格，并支持可选余额显示与低谷文本消息持久调度。",
+      "author": {
+        "name": "williamzhangww",
+        "url": "https://github.com/williamzhangww"
+      },
+      "license": "MIT",
+      "category": "tools",
+      "tags": [
+        "pricing",
+        "off-peak",
+        "scheduling",
+        "queue",
+        "balance",
+        "composer"
+      ],
+      "compatibility": {
+        "dsh": "0.2.0-rc.1"
+      },
+      "install": {
+        "target": "npm",
+        "spec": "dsh-priceflow",
+        "command": "dsh plugin --profile {profile} add dsh-priceflow"
+      },
+      "verified": false,
+      "maintainers": [
+        "williamzhangww"
+      ],
+      "repository": "https://github.com/williamzhangww/dsh-priceflow",
+      "docs": "https://github.com/williamzhangww/dsh-priceflow"
     },
     {
       "id": "dsh-web-ui",
