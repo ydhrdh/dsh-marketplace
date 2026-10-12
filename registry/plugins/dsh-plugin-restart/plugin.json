@@ -1,0 +1,37 @@
+{
+  "id": "dsh-plugin-restart",
+  "name": "Restart Button",
+  "version": "1.0.0",
+  "description": "A Restart card in DeepSeek Harness Settings: replaces the dsh web process serving the page and reconnects the page by itself, so host-half plugin changes or config edits take effect without touching a terminal.",
+  "descriptionZh": "在 DeepSeek Harness 设置页加一个「重启」卡片：一键替换正在服务当前页面的 dsh web 进程，页面自动重连。改完插件宿主半或配置后，不必再回终端操作。",
+  "author": {
+    "name": "chenkui-luo",
+    "url": "https://github.com/chenkui-luo"
+  },
+  "license": "MIT",
+  "category": "tools",
+  "tags": [
+    "restart",
+    "settings",
+    "devtools",
+    "lifecycle",
+    "windows"
+  ],
+  "compatibility": {
+    "dsh": ">=0.1.0",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "git",
+    "spec": "github:chenkui-luo/dsh-plugin-restart",
+    "command": "dsh plugin --profile {profile} add github:chenkui-luo/dsh-plugin-restart"
+  },
+  "verified": false,
+  "maintainers": [
+    "chenkui-luo"
+  ],
+  "repository": "https://github.com/chenkui-luo/dsh-plugin-restart",
+  "docs": "https://github.com/chenkui-luo/dsh-plugin-restart/blob/main/README.md"
+}
