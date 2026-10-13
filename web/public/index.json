@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-10-13T08:47:27.696Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -120,6 +120,48 @@
       ],
       "repository": "https://github.com/cpj-dev/dsh-plugin-cc",
       "docs": "https://github.com/cpj-dev/dsh-plugin-cc/blob/main/README.md"
+    },
+    {
+      "id": "dsh-trae-relay",
+      "name": "Trae2api-dsh",
+      "version": "1.3.1",
+      "description": "Use TRAE account model quota in dsh, with multi-account management, daily check-in, rotation, usage statistics, reasoning levels and model visibility.",
+      "descriptionZh": "将 TRAE 账号的模型额度接入 dsh，支持多账号管理、自动签到、账号轮询、用量统计、思考强度选择和模型显示管理。",
+      "author": {
+        "name": "FuSheng-cs",
+        "url": "https://github.com/FuSheng-cs"
+      },
+      "license": "MIT",
+      "category": "integration",
+      "tags": [
+        "trae",
+        "models",
+        "relay",
+        "accounts"
+      ],
+      "compatibility": {
+        "dsh": "0.2.0-rc.2",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "git",
+        "spec": "github:FuSheng-cs/Trae2api-dsh#v1.3.1",
+        "command": "dsh plugin --profile {profile} add github:FuSheng-cs/Trae2api-dsh#v1.3.1"
+      },
+      "verified": false,
+      "maintainers": [
+        "FuSheng-cs"
+      ],
+      "repository": "https://github.com/FuSheng-cs/Trae2api-dsh",
+      "docs": "https://github.com/FuSheng-cs/Trae2api-dsh#readme",
+      "screenshots": [
+        "https://github.com/FuSheng-cs/Trae2api-dsh/raw/v1.3.1/assets/embedded-console.png",
+        "https://github.com/FuSheng-cs/Trae2api-dsh/raw/v1.3.1/assets/model-catalog.png"
+      ]
     },
     {
       "id": "dsh-web-ui",
