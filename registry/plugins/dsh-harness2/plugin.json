@@ -1,0 +1,40 @@
+{
+  "id": "dsh-harness2",
+  "name": "Harness² Lab",
+  "version": "0.1.0-rc.1",
+  "description": "Bounded Harness² experiments using DSH models: candidate generation, isolated trials, comparisons and reflection. Installation starts no experiment or automatic adoption. Linux/WSL Python 3.12+ is required for experiments.",
+  "descriptionZh": "复用 DSH 模型的 Harness² 实验：候选生成、隔离试跑、对照与反思。安装不会自动实验或采用配置；执行器需 Linux / WSL Python。",
+  "author": {
+    "name": "jcs130",
+    "url": "https://github.com/jcs130"
+  },
+  "license": "MIT",
+  "category": "experimental",
+  "tags": [
+    "harness2",
+    "Harness²",
+    "实验室",
+    "实验",
+    "agent",
+    "self-improvement",
+    "workflow",
+    "desktop"
+  ],
+  "compatibility": {
+    "dsh": "^0.2.1-rc.2",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "@jcs130/dsh-harness2",
+    "command": "dsh plugin --profile {profile} add @jcs130/dsh-harness2@0.1.0-rc.1"
+  },
+  "verified": false,
+  "repository": "https://github.com/jcs130/dsh-harness2",
+  "docs": "https://github.com/jcs130/dsh-harness2#readme",
+  "deprecated": false
+}
