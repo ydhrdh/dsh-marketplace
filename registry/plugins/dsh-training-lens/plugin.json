@@ -1,0 +1,29 @@
+{
+  "id": "dsh-training-lens",
+  "name": "Training Lens · 训练视窗",
+  "version": "0.1.0",
+  "description": "A local TensorBoard scalar dashboard with selectable metrics, explicit improvement direction, optional EMA smoothing and Chinese/English UI. Requires an existing Python environment with TensorBoard.",
+  "descriptionZh": "通过 DSH 工具打开本地 TensorBoard 标量监控页面，支持指标选择、改善方向、EMA 平滑和中英文界面。需要已有的 Python 与 TensorBoard 环境。",
+  "author": {
+    "name": "GU143312",
+    "url": "https://github.com/GU143312"
+  },
+  "license": "MIT",
+  "category": "tools",
+  "tags": ["tensorboard", "training", "monitoring", "visualization", "dsh-plugin"],
+  "compatibility": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0",
+    "platforms": ["linux", "macos", "windows"]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "dsh-training-lens",
+    "command": "dsh plugin --profile {profile} add dsh-training-lens"
+  },
+  "verified": false,
+  "maintainers": ["GU143312"],
+  "repository": "https://github.com/GU143312/dsh-training-lens",
+  "screenshots": ["https://raw.githubusercontent.com/GU143312/dsh-training-lens/30250ee658e713482fd786ebeb8211dc9bc51e99/docs/preview.jpg"],
+  "docs": "https://github.com/GU143312/dsh-training-lens/blob/v0.1.0/README.md",
+  "deprecated": false
+}
