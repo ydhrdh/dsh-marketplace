@@ -1,0 +1,51 @@
+{
+  "id": "dsh-minecraft-agent",
+  "name": "Minecraft Agent",
+  "version": "0.3.0-rc.22",
+  "description": "Minecraft Java Agent for DSH with automatic compatible viewer materials, native reasoning/tools, editable personas, server notebooks, survival guides and optional local MineDojo indexes. Installation starts no game or model.",
+  "descriptionZh": "DSH 我的世界 Agent：缺少精确预制材质时自动显示兼容画面，游戏旁展示原生推理和工具回执；可配置人格、服务器笔记、特效、公屏与 MineDojo 知识库。矿透默认关闭，安装不启动游戏或模型。",
+  "author": {
+    "name": "jcs130",
+    "url": "https://github.com/jcs130"
+  },
+  "license": "MIT",
+  "category": "integration",
+  "tags": [
+    "minecraft",
+    "我的世界",
+    "agent",
+    "mineflayer",
+    "desktop",
+    "harness2",
+    "experiments",
+    "visualization",
+    "game-memory",
+    "quick-setup",
+    "reasoning",
+    "qiandengji",
+    "authme",
+    "notebook",
+    "persona",
+    "local-skin",
+    "minedojo",
+    "knowledge-base",
+    "survival"
+  ],
+  "compatibility": {
+    "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.2",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "@jcs130/dsh-minecraft-agent",
+    "command": "dsh plugin --profile {profile} add @jcs130/dsh-minecraft-agent@0.3.0-rc.22 --registry=https://registry.npmjs.org"
+  },
+  "verified": false,
+  "repository": "https://github.com/jcs130/dsh-minecraft-agent",
+  "docs": "https://github.com/jcs130/dsh-minecraft-agent/blob/main/docs/quick-start.md",
+  "deprecated": false
+}
