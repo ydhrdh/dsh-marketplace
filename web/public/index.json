@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-10-27T15:58:51.703Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -41,6 +41,46 @@
       ],
       "repository": "https://github.com/Seann0824/deepseek-harness-for-codex",
       "docs": "https://github.com/Seann0824/deepseek-harness-for-codex/blob/main/README.md"
+    },
+    {
+      "id": "dsh-assist",
+      "name": "dsh-assist (Preview)",
+      "version": "0.3.0",
+      "description": "Community preview for DeepSeek Harness Desktop 0.2.1-rc.3: reusable personas, scoped memory, and opt-in idle chat that resumes for saved sessions after restart. Windows TGZ installation/loading is verified; real-model proactive-chat end-to-end behavior is not yet verified.",
+      "descriptionZh": "面向 DeepSeek Harness Desktop 0.2.1-rc.3 的社区预发布插件：可复用人设、角色与会话记忆、明确开启后可在重启加载原会话时恢复的主动聊天，默认角色是爱吃白饭的大肥鱼女儿。Windows TGZ 安装与加载已验证；真实模型主动聊天端到端尚未验证。",
+      "author": {
+        "name": "a740411040",
+        "url": "https://github.com/a740411040"
+      },
+      "license": "MIT",
+      "category": "experimental",
+      "tags": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "ai-companion",
+        "persona",
+        "agent-memory",
+        "proactive-chat",
+        "desktop",
+        "preview"
+      ],
+      "compatibility": {
+        "dsh": "0.2.1-rc.3",
+        "platforms": [
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "git",
+        "spec": "github:a740411040/dsh-assist#2e1ae80082e10bbf003e37281f0ec40336c71a88",
+        "command": "dsh plugin --profile {profile} add github:a740411040/dsh-assist#2e1ae80082e10bbf003e37281f0ec40336c71a88"
+      },
+      "verified": false,
+      "maintainers": [
+        "a740411040"
+      ],
+      "repository": "https://github.com/a740411040/dsh-assist",
+      "docs": "https://github.com/a740411040/dsh-assist/blob/v0.3.0/docs/DESKTOP.md"
     },
     {
       "id": "dsh-mcp-client",
