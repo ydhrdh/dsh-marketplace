@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-10-30T10:04:21.913Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -41,6 +41,48 @@
       ],
       "repository": "https://github.com/Seann0824/deepseek-harness-for-codex",
       "docs": "https://github.com/Seann0824/deepseek-harness-for-codex/blob/main/README.md"
+    },
+    {
+      "id": "dsh-big-whale",
+      "name": "Big Whale / 大鲸鱼 / 大クジラ",
+      "version": "0.6.0-rc.2",
+      "description": "A Windows desktop and in-page DSH coding companion with Chinese, English and Japanese recorded voices, lip sync, expressions and a rice pose on context compaction.",
+      "descriptionZh": "带中英日录音、连续口型、表情和上下文压缩捧饭动作的 DSH 编程桌宠，支持 Windows 桌面与页内显示。",
+      "author": {
+        "name": "Aliciawque",
+        "url": "https://github.com/Aliciawque"
+      },
+      "license": "MIT (code); CC-BY-NC-SA-4.0 (character assets)",
+      "category": "other",
+      "tags": [
+        "desktop-pet",
+        "avatar",
+        "lip-sync",
+        "trilingual",
+        "coding-companion",
+        "大鲸鱼"
+      ],
+      "compatibility": {
+        "dsh": "0.2.1-rc.5",
+        "platforms": [
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "npm",
+        "spec": "dsh-big-whale",
+        "command": "dsh plugin --profile {profile} add dsh-big-whale@0.6.0-rc.2"
+      },
+      "verified": false,
+      "maintainers": [
+        "Aliciawque"
+      ],
+      "repository": "https://github.com/Aliciawque/dsh-big-whale",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Aliciawque/dsh-big-whale/main/docs/preview.png"
+      ],
+      "docs": "https://github.com/Aliciawque/dsh-big-whale/blob/main/README.md",
+      "deprecated": false
     },
     {
       "id": "dsh-mcp-client",
