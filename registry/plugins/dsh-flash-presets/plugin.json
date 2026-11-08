@@ -1,0 +1,41 @@
+{
+  "id": "dsh-flash-presets",
+  "name": "DSH Flash 精简预设",
+  "version": "0.3.0",
+  "description": "Two DSH agent presets shipped as a dsh.bundle combo package: flash-lean-ptc-v3 (13 hard behavior rules plus the PTC tool surface, the default) and flash-lean-ptc-v3-balance (3 rules, looser). They tune per-turn round budgets, tool-output folding and the criteria for calling a task finished, to cut token spend on DeepSeek V4.1 Flash. Installs as a profile patch layer; a runtime alias layer keeps sessions created under older preset ids resolvable.",
+  "descriptionZh": "两个面向 flash 级路由的 DSH agent 预设，以 dsh.bundle 组合包形式安装：flash-lean-ptc-v3（13 条硬约束 + PTC 工具面，默认）与 flash-lean-ptc-v3-balance（3 条，约束更弱）。调整每轮轮数预算、工具输出折叠与「任务算完成」的判据，以降低 DeepSeek V4.1 Flash 上的 token 消耗；安装方式是 profile 补丁层，另带运行时别名层，旧 id 建的会话仍可解析。",
+  "author": {
+    "name": "LarryE135",
+    "url": "https://github.com/LarryE135"
+  },
+  "license": "MIT",
+  "category": "workflow",
+  "tags": [
+    "preset",
+    "agent-preset",
+    "token-efficiency",
+    "flash",
+    "ptc",
+    "tool-output",
+    "lean"
+  ],
+  "compatibility": {
+    "dsh": ">=0.2.1-rc.5 <0.2.3-0",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "dsh-flash-presets",
+    "command": "dsh plugin --profile {profile} add dsh-flash-presets"
+  },
+  "verified": false,
+  "maintainers": [
+    "LarryE135"
+  ],
+  "repository": "https://github.com/LarryE135/dsh-flash-presets",
+  "docs": "https://github.com/LarryE135/dsh-flash-presets#readme"
+}
