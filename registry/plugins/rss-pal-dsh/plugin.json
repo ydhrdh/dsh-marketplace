@@ -1,0 +1,19 @@
+{
+  "id": "rss-pal-dsh",
+  "name": "RSS Pal",
+  "version": "0.1.1",
+  "description": "Local-first RSS/Atom reader with full-text search, bulk read marking, on-demand AI summaries and native reading companion.",
+  "descriptionZh": "本地优先的 RSS/Atom 阅读器，支持全文搜索、批量标记已读、按需 AI 总结和原生伴读。",
+  "author": { "name": "MoreFreeze", "url": "https://github.com/morefreeze" },
+  "license": "MIT",
+  "category": "web",
+  "tags": ["rss", "atom", "reader", "local-first"],
+  "compatibility": { "dsh": "0.2.1-rc.5 || 0.2.2-rc.1" },
+  "install": {
+    "target": "git",
+    "spec": "github:morefreeze/dsh-plugin-rss-pal",
+    "command": "dsh plugin --profile {profile} add github:morefreeze/dsh-plugin-rss-pal"
+  },
+  "verified": false,
+  "repository": "https://github.com/morefreeze/dsh-plugin-rss-pal"
+}
