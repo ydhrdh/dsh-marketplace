@@ -1,0 +1,28 @@
+{
+  "id": "dsh-better-classifier",
+  "name": "DSH-better-classifier",
+  "version": "0.2.0",
+  "description": "Organize DSH projects and conversations with nested virtual folders, direct colored tags, and tree-shaped search.",
+  "descriptionZh": "使用嵌套虚拟文件夹、直接彩色标签和树形搜索整理 DSH 项目与会话。",
+  "author": {
+    "name": "MakerFly",
+    "url": "https://github.com/MakerFlyFly"
+  },
+  "license": "MIT",
+  "category": "web",
+  "tags": ["sidebar", "sessions", "folders", "tags", "search"],
+  "compatibility": {
+    "dsh": "0.2.2-rc.2",
+    "platforms": ["windows"]
+  },
+  "install": {
+    "target": "npm",
+    "spec": "dsh-better-classifier",
+    "command": "dsh plugin --profile {profile} add dsh-better-classifier@0.2.0"
+  },
+  "verified": false,
+  "maintainers": ["MakerFlyFly"],
+  "repository": "https://github.com/MakerFlyFly/DSH-better-classifier",
+  "screenshots": ["https://raw.githubusercontent.com/MakerFlyFly/DSH-better-classifier/main/detail/sidebar.jpg"],
+  "docs": "https://github.com/MakerFlyFly/DSH-better-classifier/blob/main/README_ZH.md"
+}
